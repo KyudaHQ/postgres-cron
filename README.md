@@ -14,7 +14,7 @@ $ docker build -t postgres-cron:15.3 .
 # Publish image
 
 ```sh
-$ `docker buildx build --platform=linux/amd64,linux/arm64 --push --tag kyuda/postgres-cron:15.3 .`
+$ docker buildx build --platform=linux/amd64,linux/arm64 --push --tag kyuda/postgres-cron:15.3 .
 ```
 
 # Running image
