@@ -2,7 +2,6 @@
 
 Dockerfile for building postgresql:15.1 with pg_cron extension
 Dockerfile installs [CitusData pg_cron extension installed](https://github.com/citusdata/pg_cron) for `postgres` database.
-To change the database for `pg_cron` to be installed, give a value to `PG_CRON_DB` environment variable. It defaults to `pg_cron`.
 
 # Building image
 
